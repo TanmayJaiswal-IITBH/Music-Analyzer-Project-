@@ -1,1 +1,1 @@
-containing the original CSV file
+This folder contains the original CSV file
