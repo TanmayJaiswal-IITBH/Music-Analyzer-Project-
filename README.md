@@ -69,4 +69,18 @@ On completion, the repository will include:
 ## 📜 License
 This project is licensed under the MIT License – feel free to use, modify, and distribute it.
 
----
+--## 📑 Data Dictionary
+
+| Column        | Meaning                                                                 | Planned Use                                                                 |
+|---------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| **track_name** | Name of the song                                                        | For labeling charts and identifying tracks in top lists                     |
+| **artist**     | Name of the performer or band                                           | Artist frequency analysis, popularity trends                                |
+| **genre**      | Primary genre of the track                                              | Grouping songs for tempo/mood comparisons                                   |
+| **release_date** | Date the song was released                                            | Time-based analysis (monthly/yearly trends)                                 |
+| **tempo**      | Beats per minute (BPM)                                                  | Tempo distribution plots, average tempo over time                           |
+| **valence**    | Measure of musical positiveness (0 = sad, 1 = happy)                    | Mood categorization, mood trend analysis                                    |
+| **energy**     | Perceived intensity and activity level of a track                       | Energy vs mood comparisons, energy trends                                   |
+| **danceability** | How suitable the track is for dancing based on tempo, rhythm, beat   | Danceability trends over time, genre comparisons                            |
+| **duration_ms** | Length of the track in milliseconds                                   | Track length distribution, popularity vs length analysis                    |
+| **popularity**  | Popularity score from Spotify (0–100)                                  | Comparing mainstream vs niche music trends                                  |
+
